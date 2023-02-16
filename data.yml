@@ -1,5 +1,12 @@
 defaultStorageMapping: WORK
-jobs: {}
+jobs:
+  Job-1:
+    excludeSelector: ""
+    id: 1
+    includeSelector: "\t{name:*}"
+    name: New Job
+    steps: []
+    subgraphs: []
 locations:
   TPCH:
     mappingDefinitions:

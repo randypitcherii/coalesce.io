@@ -18,28 +18,7 @@ steps:
       materializationType: table
       metadata:
         appliedNodeTests: []
-        columns:
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
-              columnCounter: 1
-              stepCounter: "1"
-            config: {}
-            dataType: int
-            defaultValue: ""
-            description: ""
-            keyColumnType: None
-            name: col
-            nullable: true
-            sourceColumnReferences:
-              - columnReferences:
-                  - columnCounter: "0"
-                    stepCounter: "0"
-                transform: "1"
-            systemColumnType: None
-            transform: ""
+        columns: []
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
@@ -48,7 +27,7 @@ steps:
               customSQL: ""
             dependencies: []
             join:
-              joinCondition: ""
+              joinCondition: from PC_COALESCE_DB.TPCH_RAW.nation
             name: STG_NODE
             noLinkRefs: []
       name: STG_NODE

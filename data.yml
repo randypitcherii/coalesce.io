@@ -1,14 +1,14 @@
 defaultStorageMapping: WORK
 jobs: {}
 locations:
-  SAMPLE:
+  TPCH:
     mappingDefinitions:
       "2":
-        database: SNOWFLAKE_SAMPLE_DATA
-        schema: TPCH_SF1
+        database: ""
+        schema: ""
       "3":
-        database: SNOWFLAKE_SAMPLE_DATA
-        schema: TPCH_SF1
+        database: ""
+        schema: ""
   WORK:
     mappingDefinitions:
       "2":
